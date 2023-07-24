@@ -28,6 +28,7 @@
 
 .header {
   background: var(--white, #fff);
+  border-bottom: 1px solid var(--cornflower, #e7e9fc);
 }
 
 .logo-header {
