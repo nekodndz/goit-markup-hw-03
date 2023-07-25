@@ -389,16 +389,21 @@ img {
   display: flex;
   gap: 24px;
   justify-content: center;
+  margin-bottom: 72px;
 }
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  padding: 0 156px;
 }
 .portfolio-heading-three {
   padding-top: 32px;
   padding-left: 16px;
   margin-bottom: 8px;
+}
+button {
+  border: 1px solid #e7e9fc;
 }
 .portfolio-text {
   padding-bottom: 32px;
@@ -410,9 +415,6 @@ img {
   max-width: 360px;
   box-sizing: border-box;
   width: calc((100% - 48px) / 3);
-}
-.portfolio-container {
-  padding: 0 156px;
 }
 
 .portfolio-img {
