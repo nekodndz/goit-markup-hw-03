@@ -83,9 +83,9 @@
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  width: 496px;
   margin: 0 auto;
   margin-bottom: 48px;
+  max-width: 496px;
 }
 .main-section-button {
   color: var(--white, #fff);
@@ -103,10 +103,15 @@
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   display: block;
   margin: 0 auto;
+  min-width: 169px;
 }
 .main-section-button:hover,
 .main-section-button:focus {
   background-color: #404bbf;
+}
+
+.advantages {
+  padding: 120px 0;
 }
 
 .advantages-heading-two,
@@ -247,6 +252,10 @@ ul {
   list-style: none;
 }
 
+img {
+  display: block;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -262,13 +271,13 @@ ul {
 
 .container {
   width: 1158px;
-  padding: 0 20px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
 .nav {
   display: flex;
-  gap: 76px;
+  align-items: center;
 }
 .nav-list {
   display: flex;
@@ -289,6 +298,7 @@ ul {
 .logo-header {
   display: block;
   padding: 24px 0;
+  margin-right: 76px;
 }
 
 .address-link {
@@ -305,12 +315,16 @@ ul {
 /*-----------------------Block-model-index------------------------*/
 .advantages-list {
   display: flex;
-  padding-top: 120px;
-  padding-bottom: 120px;
   gap: 24px;
 }
 .advantages-heading-three {
   margin-bottom: 8px;
+}
+.advantages-item {
+  width: calc((100% - 72px) / 4);
+}
+.projects-item {
+  width: calc((100% - 48px) / 3);
 }
 .projects-heading-two {
   margin-bottom: 72px;
@@ -334,28 +348,34 @@ ul {
   gap: 24px;
 }
 .team-heading-three {
-  padding-top: 32px;
   margin-bottom: 8px;
+  text-align: center;
 }
 .team-text {
-  padding-bottom: 32px;
+  text-align: center;
+}
+.team-card-text {
+  padding: 32px 0;
 }
 .team-item {
+  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   background: var(--white, #fff);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
+.footer {
+  padding: 100px 0;
+}
 .logo-footer {
   display: block;
-  padding-top: 101.5px;
-  margin-bottom: 17.5px;
+  margin-bottom: 16px;
+  display: inline-block;
 }
 .footer-text {
   display: block;
   width: 264px;
-  padding-bottom: 100px;
 }
 
 /*-----------------------Block-model-portfolio------------------------*/
