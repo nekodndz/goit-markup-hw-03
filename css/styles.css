@@ -198,6 +198,7 @@
 .filter-button:focus {
   color: var(--white, #fff);
   background: var(--ocean, #404bbf);
+  border: 1px solid transparent;
 }
 
 .portfolio-item {
@@ -419,5 +420,6 @@ img {
 .portfolio-card-text {
   flex-grow: 1;
   padding: 32px 16px;
+  border-top: none;
   border: 1px solid #e7e9fc;
 }
