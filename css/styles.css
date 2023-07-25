@@ -412,7 +412,6 @@ img {
 
 .portfolio-item {
   background: var(--white, #fff);
-  box-sizing: border-box;
   width: calc((100% - 48px) / 3);
 }
 
