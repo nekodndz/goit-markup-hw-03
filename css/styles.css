@@ -191,6 +191,7 @@
   border-radius: 4px;
   border: 1px solid var(--cornflower, #e7e9fc);
   background: var(--cloud, #f4f4fd);
+  border: 1px solid transparent;
 }
 .filter-button:hover,
 .filter-button:focus {
@@ -379,10 +380,14 @@ img {
 }
 
 /*-----------------------Block-model-portfolio------------------------*/
+
+.filter {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 .filter-list {
   display: flex;
   gap: 24px;
-  padding-top: 96px;
   justify-content: center;
 }
 .portfolio-list {
@@ -407,7 +412,7 @@ img {
   width: calc((100% - 48px) / 3);
 }
 .portfolio-container {
-  padding: 72px 156px 120px;
+  padding: 0 156px;
 }
 
 .portfolio-img {
