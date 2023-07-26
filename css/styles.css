@@ -403,7 +403,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  padding: 0 156px;
   row-gap: 48px;
 }
 .portfolio-heading-three {
@@ -412,6 +411,7 @@ img {
 
 .portfolio-item {
   background: var(--white, #fff);
+  box-sizing: border-box;
   width: calc((100% - 48px) / 3);
 }
 
